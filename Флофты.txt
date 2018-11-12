@@ -1,0 +1,82 @@
+Код штмл
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Учебный сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>      
+   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    <script src="script/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="line">
+            <div class="block"><embed width="250" height="150" src="https://www.youtube.com/embed/48oa2FWYUN0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></embed>
+                <b>Предлагаю вашему вниманию Обзор матча Испания VS Англия</b>
+            </div>
+            <!-- <div class="block"></div> -->
+            <div class="block"><embed width="250" height="150" src="https://www.youtube.com/embed/FG-CDbL5vcg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></embed>
+            </div>
+            <div class="block last"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="line">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block last"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="line">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block last"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="line">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block last"></div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+Код ЦСС
+#wrapper {
+    width: 830px;
+    margin: 0px auto;
+    border: 1px solid green;
+}
+
+.block {
+    margin-right: 10px;
+    float: left;
+    width: 250px;
+    height: 150px;
+    outline: 1px solid black;
+    background: rgb(9, 240, 209);
+}
+
+.block.last {
+    margin-right: 0px;
+}
+
+.line {
+    margin-bottom: 60px;
+}
+
+.clearfix {
+    clear: both;
+}
