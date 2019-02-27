@@ -1,9 +1,9 @@
 print("Hello world;")
-<<<<<<< HEAD
+
 print("Hello people;")
 =======
 print("Hello people;")
 print("hello")
->>>>>>> master
-print("Hello my dear friend")
-print("clad to see you")
+
+print("Hello my dear friend;")
+print("clad to see you;")
