@@ -1,0 +1,10 @@
+print("Hello world;")
+
+print("Hello people;")
+=======
+print("Hello people;")
+print("hello")
+
+print("Hello my dear friend;")
+print("clad to see you;")
+print("zadolbal;")
